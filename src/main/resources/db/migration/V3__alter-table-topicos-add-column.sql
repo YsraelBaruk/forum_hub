@@ -1,0 +1,1 @@
+alter table topicos add constraint fk_topcios_usuario_id foreign key(idUsuario) references usuario(id);
